@@ -18,7 +18,7 @@ angular.module('your-module-name', [ 'cool-code' ]);
 <cool-code src=""></cool-code>
 ```
 
-*NOTE - src attribute must be an object literal, cool-code works with key value pairs to present the code
+*NOTE* - src attribute must be an object literal, cool-code works with key value pairs to present the code
 
 ## HOW TO RUN
 
