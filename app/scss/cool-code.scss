@@ -1,0 +1,118 @@
+/* -- ute-pretty-code.scss START -- */
+
+.pretty-code-container {
+  background-color: #14161B;
+  &.collapse-code {
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    vertical-align: middle;
+    xmp.pretty-code, pre.pretty-code {
+      display: none;
+    }
+  }
+  h3.title {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    vertical-align: middle;
+    padding: 0 10px;
+    margin: 0;
+    line-height: 30px;
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: #3b414b;
+  }
+}
+
+xmp.pretty-code, pre.pretty-code {
+  background-color: #14161B;
+  color: #f0f0f0;
+  font-size: 1.2rem;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  white-space: pre-wrap;
+  border: none;
+  padding: 10px;
+  margin: 0;
+}
+
+pre.pretty-json {
+  background-color: #14161B;
+  color: #f0f0f0;
+  font-size: 1.2rem;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  border: none;
+  padding: 10px;
+  margin: 0;
+  span.string {
+    color: #b2ff4b;
+  }
+  span.sep {
+    color: white;
+  }
+}
+
+.js-comment-block {
+  color: #82CBF0;
+  font-style: italic;
+  .js-colon, .js-or, .js-function, .js-var, .js-equals, .js-string, .js-boolean, .js-number, .js-variable-name {
+    color: #82CBF0;
+    font-style: italic;
+  }
+}
+
+.js-colon {
+  color: #ffe50c;
+}
+
+.js-var-name {
+  color: #b2ff4b;
+  font-weight: bold;
+}
+
+.js-var {
+  color: #fd56ff;
+  font-weight: bold;
+}
+
+.js-return {
+  color: #fd56ff;
+  font-weight: bold;
+}
+
+.js-function {
+  color: #ff5e08;
+  font-weight: bold;
+}
+
+.js-equals {
+  color: #ff5e08;
+}
+
+.js-or {
+  color: #ff5e08;
+  font-weight: bold;
+}
+
+.js-equals {
+  color: #ff5e08;
+  font-weight: bold;
+}
+
+.js-string {
+  color: #ff9b08;
+  .js-colon, .js-or, .js-function, .js-var, .js-equals, .js-string, .js-boolean, .js-number, .js-variable-name {
+    color: #ff9b08;
+  }
+}
+
+.js-boolean {
+  color: #1cad97;
+  font-weight: bold;
+}
+
+.js-number {
+  color: #ff4672;
+}
+
+/* -- ute-pretty-code.scss END -- */

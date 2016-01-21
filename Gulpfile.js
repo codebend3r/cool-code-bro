@@ -1,8 +1,17 @@
 var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
 var reload = browserSync.reload;
+var sass = require('gulp-sass');
 
-gulp.task('serve', function () {
+gulp.task('sass', function () {
+
+  return gulp.src(['app/scss/**/*'])
+    .pipe(sass())
+    .pipe(gulp.dest('./app/css'))
+
+});
+
+gulp.task('serve', ['sass'], function () {
 
   // Serve files from the root of this project
   browserSync.init({
