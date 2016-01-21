@@ -1,0 +1,29 @@
+{
+  "name": "cool-code-bro",
+  "version": "0.0.1",
+  "homepage": "https://github.com/crivas/cool-code-bro",
+  "authors": [
+    "Chester Rivas <chester.rivas@gmail.com>"
+  ],
+  "description": "AngularJS directive for presenting front end code",
+  "main": "app/js/cool-code.js",
+  "moduleType": [],
+  "keywords": [
+    "angularjs",
+    "directive",
+    "pretty",
+    "code",
+    "javascript"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#~1.4.9"
+  }
+}
