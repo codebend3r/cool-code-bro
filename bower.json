@@ -24,6 +24,8 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "angularjs#~1.4.9"
+    "angular": "angularjs#~1.4.9",
+    "underscore": "~1.8.3",
+    "jquery": "~2.2.0"
   }
 }

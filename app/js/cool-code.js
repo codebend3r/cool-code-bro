@@ -2,6 +2,8 @@
 
   'use strict';
 
+  angular.module('cool-code', []);
+
   angular.module('cool-code')
 
     .directive('coolCode', function ($filter) {

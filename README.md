@@ -15,7 +15,7 @@ angular.module('your-module-name', [ 'cool-code' ]);
 2. then use the directive in html
 
 ```
-<cool-code src="{init: function() { console.log('HELLO WORLD') }}"></cool-code>
+<cool-code src=""></cool-code>
 ```
 
 *NOTE - src attribute must be an object literal, cool-code works with key value pairs to present the code
